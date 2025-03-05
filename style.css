@@ -423,4 +423,54 @@ p {
   #feed-btn:hover {
     background: #5aa9a4;
   }
-  
+
+  @media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .nav-left {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .product-card-container {
+        justify-content: center;
+    }
+    .product-card {
+        width: 90%;
+        height: auto;
+    }
+    .product-card img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    .container-1 {
+        width: 90%;
+    }
+    .content-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .side-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-item {
+        font-size: 14px;
+    }
+    .task-input, .difficulty-select, .add-task-btn {
+        width: 80%;
+    }
+}
