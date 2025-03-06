@@ -107,6 +107,7 @@ section p{
 
 .container-1 {
     background-image: url(bg-assets/download\ \(3\).jpeg);
+    opacity:0.8;
     object-fit: cover;
     width: 50%;
     min-height: 300px;
