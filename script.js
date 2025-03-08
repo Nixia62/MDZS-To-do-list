@@ -137,7 +137,7 @@ function updateCharacterImage(hungerValue) {
     characterImage.src = "assets/15.jpeg";
   } else if (hungerValue >= 10) {
     characterImage.src = "assets/10.jpeg";
-  } else if (hungerValue >= 5) {
+  } else if (hungerValue >= 0) {
     characterImage.src = "assets/5.jpeg";
   } else {
     characterImage.src = "bg-assets/10percent.jpeg";
